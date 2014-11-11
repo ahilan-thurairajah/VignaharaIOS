@@ -1,0 +1,40 @@
+﻿html,
+body,
+form 
+ {
+  height: 96%;
+  min-height: 96% ;
+  min-width: 100%;
+  background-color: silver ;
+}
+
+
+#tdNav {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto 0 0;
+  /* Pad bottom by footer height */
+  padding: 0 0 0 0;
+  vertical-align: top;
+}
+
+#wrap {
+  width: 100% ;
+  min-width: 100% ;
+  position: relative ;
+  top: 0px ;
+  left: 0px;
+  background-color: silver ;
+  vertical-align: top ;
+  padding: 10px 10px 0 10px;
+}  
+
+.main-menu {
+    z-index:100; vertical-align: top;
+}
+
+#dnn_dnnLOGO_imgLogo {
+    height: 50px ;
+}

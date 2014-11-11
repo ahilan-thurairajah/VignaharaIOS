@@ -1,0 +1,251 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en-US">
+<head id="Head">
+    <!--*********************************************-->
+    <!-- DNN Platform - http://www.dnnsoftware.com   -->
+    <!-- Copyright (c) 2002-2014, by DNN Corporation -->
+    <!--*********************************************-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+        Sliding Menu
+    </title>
+    <meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" />
+    <meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2014 by DNN Corp" />
+    <meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " />
+    <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="text/javascript" http-equiv="Content-Script-Type" />
+    <meta content="text/css" http-equiv="Content-Style-Type" />
+    <meta name="RESOURCE-TYPE" content="DOCUMENT" />
+    <meta name="REVISIT-AFTER" content="1 DAYS" />
+    <meta name="RATING" content="GENERAL" />
+    <link href="/Portals/_default/default.css?cdv=26" media="all" type="text/css" rel="stylesheet" />
+    <link href="/Portals/_default/Skins/VignaharaIOS/skin.css?cdv=26" media="all" type="text/css" rel="stylesheet" />
+    <link href="/Portals/_default/Skins/VignaharaIOS/HomeSilver.css?cdv=26" media="all" type="text/css" rel="stylesheet" />
+    <link href="/Portals/0/portal.css?cdv=26" media="all" type="text/css" rel="stylesheet" />
+    <script src="/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=26" type="text/javascript"></script>
+    <script src="/Resources/libraries/jQuery-Migrate/01_02_01/jquery-migrate.js?cdv=26" type="text/javascript"></script>
+    <script src="/Resources/libraries/jQuery-UI/01_10_03/jquery-ui.js?cdv=26" type="text/javascript"></script>
+    <link href="http://localhost:8080/Test-Pages/SlidingMenu" rel="canonical" />
+
+    <script type="text/javascript">
+			      var _gaq = _gaq || [];
+			      _gaq.push(['_setAccount', 'UA-54882641-1']);
+			      _gaq.push(['_trackPageview']);
+
+
+			      (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			      })();
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body id="Body">
+    <form method="post" action="/Test-Pages/SlidingMenu" id="Form" enctype="multipart/form-data">
+
+        <div style="color: red; background-color: blue; min-height: 100%" class="container-fluid">
+            Top Section...
+            <table id="tableSkin" style="min-width: 100%; min-height: 100%">
+                <tr>
+                    <td id="tdNav">
+                        <nav class="main-menu" style="z-index:100; vertical-align: top;">
+                            <div>
+                                <a class="logo" href="http://startific.com">
+                                </a>
+                            </div>
+                            <div class="settings"></div>
+                            <div class="scrollbar" id="style-1">
+                                <ul>
+
+                                    <li>
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-home fa-lg"></i>
+                                            <span class="nav-text">Home</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-user fa-lg"></i>
+                                            <span class="nav-text">Login</span>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-envelope-o fa-lg"></i>
+                                            <span class="nav-text">Contact</span>
+                                        </a>
+                                    </li>
+
+                                    <!-- BEGIN: Social Network Sharing -->
+                                    <li>
+                                        <a href="//www.vignahara.com">
+                                            <i class="fa fa-heart-o fa-lg"></i>
+
+                                            <span class=""></span>
+                                            <div class="share addthis_default_style addthis_32x32_style">
+
+                                                <div style="position:absolute;margin-left: 56px;top:3px;">
+                                                    <a href="http://www.facebook.com/sharer/sharer.php?u=" target="_blank" class="share-popup"><img src="http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png" width="30px" height="30px"></a>
+                                                    <a href="http://twitter.com/share" target="_blank" class="share-popup"><img src="https://cdn1.iconfinder.com/data/icons/metro-ui-dock-icon-set--icons-by-dakirby/512/Twitter_alt.png" width="30px" height="30px"></a>
+                                                    <a href="https://plusone.google.com/_/+1/confirm?hl=en&url=_URL_&title=_TITLE_" target="_blank" class="share-popup"><img src="http://icons.iconarchive.com/icons/danleech/simple/512/google-plus-icon.png" width="30px" height="30px"></a>
+                                                </div>
+                                                <script type="text/javascript">var addthis_config = { "data_track_addressbar": true };</script>
+                                                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ff17589278d8b3a"></script>
+                                            </div>
+
+                                            <span class="twitter"></span>
+                                            <span class="google"></span>
+                                            <span class="fb-like">
+                                                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fstartific&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowtransparency="true"></iframe>
+
+                                            </span>
+                                            <span class="nav-text">
+                                            </span>
+
+                                        </a>
+
+                                    </li>
+                                    <!-- END: Social Network Sharing -->
+                                    <li class="darkerlishadow">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-clock-o fa-lg"></i>
+                                            <span class="nav-text">News</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-desktop fa-lg"></i>
+                                            <span class="nav-text">Technology</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-plane fa-lg"></i>
+                                            <span class="nav-text">Travel</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-shopping-cart"></i>
+                                            <span class="nav-text">Shopping</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-microphone fa-lg"></i>
+                                            <span class="nav-text">Film & Music</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-flask fa-lg"></i>
+                                            <span class="nav-text">Web Tools</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-picture-o fa-lg"></i>
+                                            <span class="nav-text">Art & Design</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-align-left fa-lg"></i>
+                                            <span class="nav-text">
+                                                Magazines
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-gamepad fa-lg"></i>
+                                            <span class="nav-text">Games</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerli">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-glass fa-lg"></i>
+                                            <span class="nav-text">
+                                                Life & Style
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                    <li class="darkerlishadowdown">
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-rocket fa-lg"></i>
+                                            <span class="nav-text">Fun</span>
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-question-circle fa-lg"></i>
+                                            <span class="nav-text">Help</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <ul class="logout">
+                                    <li>
+                                        <a href="http://startific.com">
+                                            <i class="fa fa-lightbulb-o fa-lg"></i>
+                                            <span class="nav-text">
+                                                BLOG
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </td>
+                    <td id="wrap">
+                        <!-- Wrap all page content here -->
+                        <div id="dnn_ContentPane" class="container bannerPane">
+                            This is the content pane.
+                            <div class="DnnModule DnnModule-DNN_HTML DnnModule-433"><a name="433"></a></div>
+                        </div>
+
+                        <div class="container contentPane">
+                            <!-- Begin page content -->
+                            <div class="row">
+                                <div id="dnn_TopRightPane" class="col-sm-6 col-md-4">This is the top right pane1.</div>
+                                <div id="dnn_TopCenterPane" class="col-sm-6 col-md-4">This is the top center pane.</div>
+                                <div id="dnn_TopLeftPanel" class="col-sm-6 col-md-4">This is the top left pane.</div>
+                                <div class="clearfix visible-md-block"></div>
+                                <div id="dnn_MiddleRightPane" class="col-sm-6 col-md-4 DNNEmptyPane"></div>
+                                <div id="dnn_MiddleCenterPane" class="col-sm-6 col-md-4 DNNEmptyPane"></div>
+                                <div id="dnn_MiddleLeftPanel" class="col-sm-6 col-md-4 DNNEmptyPane"></div>
+                            </div>
+                            <div class="row">
+                                <div id="dnn_BottomLeftPane" class="col-sm-6 col-md-8 DNNEmptyPane"></div>
+                                <div id="dnn_BottomRightPane" class="col-sm-6 col-md-4 DNNEmptyPane"></div>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </form>
+
+</body>
+</html>
