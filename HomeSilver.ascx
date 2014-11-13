@@ -34,21 +34,11 @@
                                 </a>
                             </li>
 
-                            <li>
-                                <a href="http://startific.com">
-                                    <i class="fa fa-user fa-lg"></i>
-                                    <span class="nav-text">Login</span>
-                                </a>
-                            </li>
-
-                            <li>
+                            <li class="menu-item" >
                                 <i class="fa fa-user fa-lg menu-icon"></i>
-                                <div class="share addthis_default_style addthis_32x32_style">
-                                    <div style="position:absolute;margin-left: 56px;top:3px;">
-                                        <dnn:USER ID="dnnUser" runat="server" LegacyMode="true" CssClass="menu-item" />
-                                    </div>
-                                </div>
-                                
+                                <span class="nav-text" style="position:absolute;margin-left: 56px;top:10px;">
+                                    <dnn:USER ID="dnnUser" runat="server" LegacyMode="true" CssClass="menu-item" />        
+                                </span>
                             </li>
 
 
