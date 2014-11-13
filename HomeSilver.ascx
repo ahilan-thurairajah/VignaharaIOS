@@ -41,6 +41,16 @@
                                 </a>
                             </li>
 
+                            <li>
+                                <i class="fa fa-user fa-lg menu-icon"></i>
+                                <div class="share addthis_default_style addthis_32x32_style">
+                                    <div style="position:absolute;margin-left: 56px;top:3px;">
+                                        <dnn:USER ID="dnnUser" runat="server" LegacyMode="true" CssClass="menu-item" />
+                                    </div>
+                                </div>
+                                
+                            </li>
+
 
                             <li>
                                 <a href="http://startific.com">
@@ -203,7 +213,11 @@
       </div>   
       </td></tr>
 </table>
-
+<div id="testControls">
+    <textarea id="test" rows="10" cols="200">
+    <dnn:USER ID="USER1" runat="server" LegacyMode="true" CssClass="fa fa-user fa-lg" ShowAvatar="True" Text='<li class="fa fa-user fa-lg"></li>' />
+    </textarea>
+</div>
 
 
 
